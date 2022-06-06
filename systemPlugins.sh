@@ -1,6 +1,7 @@
 # install package from nix(non-NixOS)
 nix-env -iA \
-        nixpkgs.git \
+        nixpkgs.home-manager \
+	nixpkgs.git \
         nixpkgs.zsh \
         nixpkgs.oh-my-zsh \
         nixpkgs.neovim \
@@ -8,4 +9,5 @@ nix-env -iA \
         nixpkgs.stow \
         nixpkgs.fzf \
         nixpkgs.bat \
-        nixpkgs.lsd
+        nixpkgs.lsd \
+	nixpkgs.powerline-fonts
