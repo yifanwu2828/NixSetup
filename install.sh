@@ -1,5 +1,5 @@
 
-# install nix
+# install nix (for wsl)
 sh <(curl -L https://nixos.org/nix/install) --no-daemon
 
 # source nix
